@@ -6,6 +6,13 @@ public class Editorial {
 	private String contacto;
 	private String telefono;
 
+	
+	
+	
+	public Editorial() {
+		this(0, "","","");
+	}
+
 	public Editorial(int idEditorial, String nombre, String contacto, String telefono) {
 		super();
 		this.idEditorial = idEditorial;

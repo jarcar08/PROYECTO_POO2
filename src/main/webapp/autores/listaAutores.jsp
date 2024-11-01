@@ -7,7 +7,7 @@
 <head>
 <meta charset="UTF-8">
 
-<title>Insert title here</title>
+<title>AUTORES</title>
 
 <link rel="stylesheet" href="assets/css/bootstrap.min.css">
 <script src="assets/js/bootstrap.min.js"></script>
@@ -30,8 +30,10 @@
 	</script>
 
 	<div class="container">
-		<a type="button" href="<%=url%>AutoresController?op=nuevo">NUEVO
-			AUTOR</a>
+		<a type="button" class="btn btn-primary" href="<%=url%>AutoresController?op=nuevo">NUEVO
+			AUTOR</a> 
+		<a type="button" class="btn btn-primary" href="<%=url%>EditorialController?op=listar">VER
+			EDITORIALES </a>
 
 		<table class="table table-dark table-striped" border="1">
 			<thead>

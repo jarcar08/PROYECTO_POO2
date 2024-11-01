@@ -6,12 +6,13 @@
 <head>
 <meta charset="UTF-8">
 
-<title>Insert title here</title>
+<title>AUTORES</title>
 <link rel="stylesheet" href="assets/css/bootstrap.min.css">
 <script src="assets/js/bootstrap.min.js"></script>
 
 </head>
 <body>
+
 
 	<%
 	String url = "http://localhost:8080/proyectoWebGB/";
@@ -39,5 +40,7 @@
 </body>
 </html>
 
-</div>
 
+
+
+</div>
